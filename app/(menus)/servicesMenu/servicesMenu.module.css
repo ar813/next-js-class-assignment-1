@@ -1,0 +1,44 @@
+.div {
+    width: 900px;
+    height: 400px;
+    margin: 95px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+.div:hover{
+    box-shadow: 0px 0px 20px gray;
+  }
+
+.heading {
+    margin-bottom: 10px;
+    animation: shaking 5s 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 23px;
+    font-size: 40px;
+    color: #fba700;
+}
+
+
+@keyframes shaking {
+    0%{top:0; left: -710px;}
+    20%{top:0; left: 0px;}
+    100%{top:0; left: 0px;}
+}
+
+.container{
+    width: 240px;
+    height: 270px;
+    border: 1px solid #343a40;;
+    border-radius: 20px;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+}
+.container:hover{
+    border: 2px groove #fba700;
+}
+.subHeading{
+    text-align: center;
+    margin-bottom: 10px;
+}
